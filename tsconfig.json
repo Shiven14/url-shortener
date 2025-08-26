@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "compilerOptions": {
     "target": "ES2022",
@@ -11,3 +12,20 @@
   },
   "exclude": ["node_modules", "dist"]
 }
+=======
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2022"],
+    "outDir": "dist",
+    "rootDir": "src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["node", "aws-lambda"]
+  },
+  "exclude": ["node_modules", "dist", "test"]
+}
+>>>>>>> 05bf1fd (Scaffold restored, build + tests passing)
