@@ -1,0 +1,20 @@
+{
+  "name": "url-shortener",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "node --test --test-reporter=spec",
+    "sam:local": "npm run build && sam local start-api",
+    "sam:deploy": "npm run build && sam deploy --guided"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.138",
+    "typescript": "^5.4.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.637.0",
+    "@aws-sdk/lib-dynamodb": "^3.637.0"
+  }
+}
