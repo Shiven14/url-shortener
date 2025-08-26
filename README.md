@@ -1,3 +1,5 @@
+![build](https://github.com/Shiven14/url-shortener/actions/workflows/ci.yml/badge.svg)
+
 # 🚀 Serverless URL Shortener (AWS Free Tier)
 
 A simple serverless **URL shortener** built on the AWS Free Tier using:
@@ -28,3 +30,4 @@ A simple serverless **URL shortener** built on the AWS Free Tier using:
 ### 2. Install dependencies
 ```bash
 npm ci
+
